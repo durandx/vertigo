@@ -38,6 +38,9 @@
 			<plugin class="io.vertigo.dynamo.plugins.store.datastore.hsql.HsqlDataStorePlugin">
 				<param name="sequencePrefix" value="SEQ_" />
 			</plugin>
+			<plugin class="io.vertigo.dynamo.plugins.store.filestore.fs.FsFileStorePlugin">
+				<param name="name" value="temp"/>
+			</plugin
 			<plugin class="io.vertigo.dynamo.plugins.store.filestore.db.DbFileStorePlugin">
 				<param name="storeDtName" value="DT_VX_FILE_INFO"/>
 			</plugin>
